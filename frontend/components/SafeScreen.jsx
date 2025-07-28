@@ -9,7 +9,7 @@ const SafeScreen = ({ children }) => {
       style={{
         paddingTop: insets.top,
         flex: 1,
-        backgroundColor: COLORS,
+        backgroundColor: COLORS.background,
       }}
     >
       {children}
